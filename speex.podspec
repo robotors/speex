@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/guange2015/speex"
+  s.homepage         = "https://github.com/robotors/speex"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "guange" => "8863824@gmail.com" }
-  s.source           = { :git => "https://github.com/guange2015/speex.git", :tag => s.version.to_s }
+  s.author           = { "robotors" => "haocreator@gmail.com" }
+  s.source           = { :git => "https://github.com/robotors/speex.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -38,5 +38,4 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.frameworks = ''
   s.library = 'c++'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
